@@ -1,0 +1,21 @@
+chess-like {
+  button,
+  span {
+    font-size: 3rem;
+    font-family: monospace;
+    padding: 0 .5rem;
+  }
+
+  button {
+    background: #80CBC4;
+    color: black;
+    border: 0;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(18, 173, 152, 0.5);
+  }
+
+  button:active {
+    background: #004D40;
+    color: white;
+  }
+}
